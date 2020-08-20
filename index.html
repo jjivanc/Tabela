@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/partials/page-landing.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page-landing">
+        <div id="container">
+            <div class="header">
+                <p>Logo</p>
+                <p>nome</p>
+            </div>
+            <div class="main">
+                <table>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Quantidade</th>
+                        <th>Val. Unitário</th>
+                        <th>Vendidos</th>
+                        <th>Sobras</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <th>Picole comum</th>
+                        <td><input id="qtd" type="text"></td>
+                        <td><input id="val_u" type="text"></td>
+                        <td><input id="qtd_v" type="text"></td>
+                        <td><input id="sobra" type="text"></td>
+                        <td><input id="total" type="text" value="0"></td>
+                    </tr>
+                    <tr>
+                        <th>Cobertura</th>
+                        <td><input id="qtd_c" type="text"></td>
+                        <td><input id="val_u_c" type="text"></td>
+                        <td><input id="qtd_v_c" type="text"></td>
+                        <td><input id="sobra_c" type="text"></td>
+                        <td><input id="total_c" type="text" value="0"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/calculo.js"></script>
+</body>
+</html>
